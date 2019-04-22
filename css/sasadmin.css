@@ -1,0 +1,155 @@
+	html {
+		font-family:'Open Sans', Arial, sans-serif;
+	}
+
+/*header*/
+	header {
+		top:0;
+		display:block;
+	}
+	
+	.SASYSTEM {
+		font-family:Comic Sans MS;
+		font-size:50px;
+		margin-left: 100px;
+		margin-top:15px;
+		float:left;
+		width:80%;
+		color:black;
+	}
+	
+	.headRight {
+		float:right;
+		font-family:'Open Sans', Arial, sans-serif;
+		font-size:10px;
+		font-weight:bold;
+		margin-right:10px;
+		margin-top:10px;
+	}
+	
+	.logout {
+		text-align:right;
+		background-color: #555;
+		color:white;
+		padding: 16px 20px;
+		border: none;
+		cursor: pointer;
+		opacity: 0.8;
+		font-size:20px;
+	}
+	
+/*body*/
+
+	.msg {
+		margin: 30px auto; 
+		padding: 10px; 
+		border-radius: 5px; 
+		color: #3c763d; 
+		background: #dff0d8; 
+		border: 1px solid #3c763d;
+		width: 50%;
+		text-align: center;
+	}
+
+	#container {
+		margin-left:auto;
+  		margin-right:auto;
+  		width:60%;
+	}
+	
+	.managementform {
+		text-align:center;
+		width:60%;
+	}
+	
+	.managementtable {
+		float:center;
+		width:50%;
+	}
+	
+	/* Add styles to the form container */
+	.form-container {
+		max-width: 300px;
+		padding: 10px;
+	}
+	
+	/*result table*/
+	text{
+		font-size: 13px;
+	}
+	.resulttable {
+		width: 190%;
+		margin: 30px auto;
+		border-collapse: collapse;
+		text-align: left;
+	}
+	.resulttable tr {
+		border-bottom: 1px solid #cbcbcb;
+	}
+	.resulttable th, .resulttable td{
+		border: none;
+		height: 30px;
+		padding: 2px;
+	}
+	
+	.resulttable tr:hover {
+		background: #F5F5F5;
+	}
+	
+	/* Full-width input fields */
+	.form-container input[type=text], .form-container input[type=password] {
+		width: 128%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		border: none;
+		background: #f1f1f1;
+	}
+	
+	/* Set a style for the submit/login button */
+	.form-container .btn {
+		background-color: #4CAF50;
+		color: white;
+		padding: 16px 20px;
+		border: none;
+		cursor: pointer;
+		width: 138%;
+		margin-bottom:10px;
+		opacity: 0.8;
+	}
+
+/* Add some hover and selected effects to buttons */
+	.form-container .btn:hover, .open-button:hover {
+		opacity: 1;
+	}
+	
+	.open-button:focus {
+		background-color:red;
+	}
+	
+	#university input[type=text] {
+		width: 90%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		border: none;
+		background: #f1f1f1;
+	}
+	
+	#university textarea {
+		width: 90%;
+		line-height: 1%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		border: none;
+		background: #f1f1f1;
+	}
+	
+	#university .btn {
+		background-color: #4CAF50;
+		color: white;
+		padding: 16px 20px;
+		border: none;
+		cursor: pointer;
+		width:100%;
+		margin-bottom:10px;
+		opacity: 0.8;
+	}
